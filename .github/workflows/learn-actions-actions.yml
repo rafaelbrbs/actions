@@ -15,5 +15,4 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - run: sudo apt update -y
-      - name: Upgrade
       - run: sudo apt upgrade -y
