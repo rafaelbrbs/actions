@@ -5,10 +5,11 @@ on:
     branches: [ main ]
 
 jobs:
-  check-bats-version:
+  pre-build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: install node
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
