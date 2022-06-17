@@ -12,5 +12,5 @@ jobs:
       - run: bats -v
       - run: ls -lah
       - run: pwd
-      - run: apt update -y
-      - run: apt upgrade -y
+      - run: apt-get update -y
+      - run: apt-get upgrade -y
