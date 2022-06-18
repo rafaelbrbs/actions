@@ -24,4 +24,4 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - run: echo ########### DEPLOY DEV ###############
+      - run: echo DEPLOY DEV
