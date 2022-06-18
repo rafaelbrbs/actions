@@ -19,3 +19,8 @@ jobs:
       - run: sudo apt update -y
       - name: Upgrade
         run: sudo apt upgrade -y
+  
+  pre-build-2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo Pre Build 2
