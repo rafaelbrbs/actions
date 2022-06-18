@@ -16,5 +16,5 @@ jobs:
       - run: bats -v
       - run: id
       - run: sudo apt update -y
-      - name: upgrade
+      - name: Upgrade
         run: sudo apt upgrade -y
